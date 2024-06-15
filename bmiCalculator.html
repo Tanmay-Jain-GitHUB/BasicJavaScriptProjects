@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bg-colour changer</title>
+    <style>
+        body{
+            background-color: grey;
+        }
+        .outerdiv{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            width: fit-content;
+            height: fit-content;
+            background-color: white;
+            padding: 10px;
+            margin: 20px;    
+        }
+        button{
+            background-color: rgb(255, 182, 46);
+            border: solid black 1px;
+            padding: 10px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="outerdiv">
+    <div class="container">
+        <form  action="">
+            <p><label for="weight">Enter weight (in kg): </label><input type="text" id="weight"></p>
+            <p><label for="height">Enter height (in cm): </label><input type="text" id="height"></p>
+            <button>Calculate bmi</button>
+            <div id="result"></div>
+            <div id = "weight-guide">
+                <h3>BMI Weight Guide</h3>
+                <p>Underweight: Less than 18.6</p>
+                <p>Normal weight: 18.6 to 28.9</p>
+                <p>Overweight: Greater than 28.9</p>
+            </div>
+        </form>
+    </div>
+    </div>
+    <script src="./bmiCalculator.js">
+         
+    </script>
+</body>
+</html>
