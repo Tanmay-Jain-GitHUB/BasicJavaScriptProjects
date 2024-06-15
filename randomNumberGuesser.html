@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bg-colour changer</title>
+    <style>
+        body{
+            background-color: grey;
+        }
+        .outerdiv{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            width: fit-content;
+            height: fit-content;
+            background-color: white;
+            padding: 10px;
+            margin: 20px;    
+        }
+        button{
+            background-color: rgb(255, 182, 46);
+            border: solid black 1px;
+            padding: 10px;
+            border-radius: 20px;
+        }
+        #result{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="outerdiv">
+    <div class="container">
+        <form  action="">
+            <p><label for="num">Guess integer in range [1,5]: </label><input type="text" id="num"></p>
+            <button>Guess</button>
+            <div id="result"></div>
+        </form>
+    </div>
+    </div>
+    <script src="./randomNumberGuesser.js">         
+    </script>
+</body>
+</html>
