@@ -12,3 +12,6 @@ Project 3: Random Number Guesser
             
 Project 4: Dice Game
             Whenever a user clicks on the screen, a random number is generated on the dice. Whichever player's dice shows a higher number, wins the game.
+
+Project 5: Drum Kit
+            Drum beat play when you press corresponding key on the keyboard or you click on the button with a mouse.
