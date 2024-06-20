@@ -15,3 +15,5 @@ Project 4: Dice Game
 
 Project 5: Drum Kit
             Drum beat play when you press corresponding key on the keyboard or you click on the button with a mouse.
+
+Project 6: Simon Game
